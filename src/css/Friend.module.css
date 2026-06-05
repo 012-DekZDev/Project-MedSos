@@ -1,0 +1,61 @@
+.boxBody{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxMainContent {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.boxMainContent .containerCard{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.userStats {
+    margin: 30px 0;
+    padding: 15px 30px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #4b00ce;
+    text-align: center;
+}
+
+.userStats span {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    color: #7018ff;
+}
+
+.userStats p {
+    color: white;
+    margin: 0;
+}
+
+.boxBtnBackHome {
+    background: transparent;
+    color: #9e86ff;
+    border: 2px solid #4b00ce;
+    border-radius: 12px;
+    padding: 10px 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 40px;
+}
+
+.boxBtnBackHome:hover{
+    background: rgba(93, 0, 255, 0.15);
+    color: white;
+    box-shadow:
+    0 0 15px rgba(94, 0, 255, 0.6);
+}

@@ -1,0 +1,60 @@
+.boxMainContent .containerCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.boxBody {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.boxMainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 40px;
+    align-items: center;
+    flex: 1;
+}
+
+.profileBtn {
+    background: transparent;
+    color: #c4b5fd;
+    border: 2px solid #7c3aed;
+    border-radius: 12px;
+    padding: 10px 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.profileBtn:hover {
+    background: rgba(124, 58, 237, 0.15);
+    color: white;
+    box-shadow:
+        0 0 15px rgba(124, 58, 237, 0.6);
+}
+
+.userStats {
+    margin: 30px 0;
+    padding: 15px 30px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #4b00ce;
+    text-align: center;
+}
+
+.userStats span {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    color: #7018ff;
+}
+
+.userStats p {
+    color: white;
+    margin: 0;
+}

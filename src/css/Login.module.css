@@ -1,0 +1,160 @@
+body{
+    min-height: 100vh;
+}
+
+.bodyLogin{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.boxLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.box{
+    flex: 1;
+}
+
+.boxLogin .mainContent h2{
+    margin: 50px;
+}
+
+.mainContent{
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(70, 70, 70, 0.233);
+    border: 2.5px solid rgb(38, 23, 78);
+    width: 380px;
+}
+
+.boxLogin .mainContent .boxInput{
+    margin: 2px 0 20px 0;
+    width: 400px;
+    height: 45px;
+    padding: 5px 0 5px 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(49, 49, 49);
+}
+
+.boxLogin .mainContent .boxInput::placeholder{
+    color: white;
+}
+
+.boxLogin .mainContent .boxInput:focus{
+    outline: none;
+    border: 1px solid rgb(69, 1, 255);
+}
+
+.boxLogin .mainContent .boxButtonLogin{
+    border: 1px solid transparent;
+    background-color: rgb(69, 1, 255);
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.boxLogin .mainContent .boxButtonLogin:hover{
+    background-color:  rgb(92, 0, 212);
+}
+
+.boxButtonLupaSandi{
+    border: 1px solid transparent;
+    background-color: transparent;
+    margin: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.boxButtonLupaSandi:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+.boxButtonBuatAkun{
+    border: 1px solid rgb(69, 1, 255);
+    background-color: transparent;
+    color: rgb(69, 1, 255);
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.boxButtonBuatAkun:hover{
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+
+.logo{
+    width: 84px;
+}
+
+.pictureMedsos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box .boxContent .boxText h1{
+    font-size: 40px;
+}
+
+.logoMedsos{
+    width: 586px;
+}
+
+.boxLogin .box .boxLogo{
+    padding: 30px;
+}
+
+
+.boxLogin .box .boxContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxLogin .box .boxContent .boxText{
+    color: white;
+}
+
+/**Register*/
+
+.mainContent .date {
+    margin:  5px 0 70px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mainContent .date select{
+    border: none;
+    background-color: rgb(69, 1, 255);
+    width: 170px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mainContent .date select:hover{
+    background-color: rgb(92, 0, 212);
+}
+
+.mainContent .date select::content{
+    border-radius: 20px;
+}
