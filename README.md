@@ -23,34 +23,8 @@ Pengguna dapat login, mencari user, memberikan like, follow/unfollow user, melih
 
 ## Struktur Project
 
-```
-src/
-├── context/
-│   └── AuthContext.jsx       # Menyimpan state login global
-├── pages/
-│   ├── Login.jsx             # Halaman login
-│   ├── Register.jsx          # Halaman register
-│   ├── Home.jsx              # Halaman utama
-│   ├── Profile.jsx           # Halaman profile
-│   └── Friend.jsx            # Halaman following
-├── components/
-│   ├── Navbar.jsx            # Komponen navigasi
-│   ├── UserCard.jsx          # Komponen kartu user
-│   └── Footer.jsx            # Komponen footer
-├── css/
-│   ├── Login.module.css
-│   ├── Home.module.css
-│   ├── Profile.module.css
-│   ├── Friend.module.css
-│   ├── Navbar.module.css
-│   ├── UserCard.module.css
-│   └── Footer.module.css
-├── App.jsx
-├── main.jsx
-└── index.css
-```
+<img width="296" height="706" alt="Screenshot 2026-06-05 233431" src="https://github.com/user-attachments/assets/602893f2-adf9-4e03-96e0-a2c189206a6b" />
 
----
 
 ## Penjelasan Component
 
