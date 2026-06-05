@@ -184,5 +184,4 @@ const handleInput = () => {
 
 ## Link
 
-- GitHub Repository: [link github]
-- Deploy: [link vercel/netlify]
+- Deploy:  [Klik Link Website](https://project-med-sos.vercel.app/)
